@@ -1,6 +1,6 @@
 <template>
   <div class="list-task m-5">
-    <h1>Todo List {{ name }}</h1>
+    <h1>Todo List</h1>
     <div v-if="tasks.length">
       <div
         v-for="item of tasks"
